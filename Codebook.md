@@ -19,7 +19,7 @@ form a data frame resembling the below:
 |================|===============|=========|================|================|=====|
 ```
 The vast majority of the column names contained three variables:
-`
+
 	1. The measurement being examined
 	2. Whether the value represents the mean or standard deviation of the measurement during the observation 
 	window. A wealth of additional statistics were available in the data, but this project only examines the
@@ -33,7 +33,7 @@ In order to tidy the data, these three variables needed to be separated. The tid
 the following form:
 
 **Table 2**
-
+```
 |================|===============|=========|====|=========|=======|======|======|
 | activity.label | activity.name | subject | id | measure | value | axis | stat |
 |================|===============|=========|====|=========|=======|======|======|
@@ -42,7 +42,7 @@ the following form:
 |                |               |         |    |         |       |      |      |
 |                |               |         |    |         |       |      |      |
 |================|===============|=========|====|=========|=======|======|======|
-
+```
 This separates the three variables into their own columns. 'id' was included as a reference to the original
 row of the original data. This is to provide the ability to construct a group of measurements from a specific
 range of time as that is what a row in the original data corresponds to.
