@@ -7,7 +7,7 @@ run_analysis.R
 The data for this project are spread out over a variety of files. When put together, the resulting data
 form a data frame resembling the below:
 
-**Table 1**
+**Table 1**\n
 |================|===============|=========|================|================|=====|
 | activity.label | activity.name | subject | measureA-std-X | measureA-std-Y | ... |
 |================|===============|=========|================|================|=====|
@@ -30,7 +30,7 @@ The vast majority of the column names contained three variables:
 In order to tidy the data, these three variables needed to be separated. The tidy data set is of
 the following form:
 
-**Table 2**
+**Table 2**\n
 |================|===============|=========|====|=========|=======|======|======|
 | activity.label | activity.name | subject | id | measure | value | axis | stat |
 |================|===============|=========|====|=========|=======|======|======|
