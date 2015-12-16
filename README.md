@@ -1,4 +1,4 @@
-####Data Wrangling Project
+#Data Wrangling Project
 
 This project was aimed to practice with data wrangling techniques. The data used was provided by Smartlab, 
 and includes various measurements taken over the course of a day by the sensors in a Galaxy S Smartphone. 
@@ -7,7 +7,7 @@ measurement was taken (walking, sitting, laying down, etc.).
 
 A full description of the data can be found inside README_Smartlab.txt.
 
-#The objectives were the following:
+###The objectives were the following:
 
 - Merge the training and test data sets
 - Extract the columns containing the mean and standard deviation for each measurement
