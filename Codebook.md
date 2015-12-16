@@ -19,6 +19,7 @@ form a data frame resembling the below:
 |================|===============|=========|================|================|=====|
 
 The vast majority of the column names contained three variables:
+
 	1. The measurement being examined
 	2. Whether the value represents the mean or standard deviation of the measurement during the observation 
 	window. A wealth of additional statistics were available in the data, but this project only examines the
